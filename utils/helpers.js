@@ -14,7 +14,7 @@ let dater = (function () {
         if (month < 0 || month > 11) {
             throw new Error('Invalid month argument. Month must be between 0 and 11.')
         }
-        // javascript doesn't have enums so we have to do this, SAD!
+        // the months:
         let Months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
         return Months[month]
     }
